@@ -9,6 +9,7 @@
   	#logo{
   		margin-left: 9%;
   	}
+
   	nav {
   		margin:0px;
   		margin-right: 9%;
@@ -43,10 +44,11 @@
 @media only screen and (max-width: 768px){
   	body{
   		background-color: blue;
-      background: url("../images/old_moon.png");      
+      background: url("../images/seigaiha.png");      
   	}
     #logo{
       margin-left:7.5%;
+      padding:0px;
     }
 
     nav{
@@ -65,12 +67,15 @@
 
     .sidebar{
       width:100%;
-      margin-right: 61%;
+      min-width: 93.5%;
+      margin: 0 auto;
+      margin-right: 6.3%;
       margin-top: 5%;
+      margin-bottom: 5%;
     }
-
-    .social:last-child {
-      padding-right:0px auto;
+    .social {
+      width: 62px;
+      height: 62px;
     }
 
 
@@ -79,8 +84,54 @@
 @media only screen and (max-width: 640px){
   	body{
   		background-color: yellow;
+      background: url("../images/concrete_seamless.png");
+
   	}
   	header{
-  		position: static;
+  	  position: static;
+
   	}
+
+
+    #logo{
+      margin:0 auto;
+      width:100%;
+      height: 70px;
+    }
+
+    nav{
+      margin-right: 7.5%;
+    }
+
+    nav a{
+      padding-left: 50px;
+      padding-right: 50px;
+    }
+
+    #main-container{
+      width:100%;
+      max-width:640px;
+      padding-left: 7.5%;
+      padding-right: 0px;
+    }
+
+    .main-section{
+      margin:0 auto;
+      margin-left: -3%;
+      margin-top: 5%;
+    }
+
+    .sidebar{
+      width:100%;
+      min-width: 100%;
+      /*margin-right: 56%;*/
+      margin: 0 auto;
+      margin-right: 2.7%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+    }
+    .social {
+    width: 62px;
+    height: 62px;
+    }
 }
