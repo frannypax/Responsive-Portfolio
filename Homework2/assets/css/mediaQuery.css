@@ -1,0 +1,86 @@
+
+@media only screen and (max-width: 980px){
+  	body{
+  		background-color: lightgreen;
+      background: url("../images/wormz.png");
+
+  	}
+ 
+  	#logo{
+  		margin-left: 9%;
+  	}
+  	nav {
+  		margin:0px;
+  		margin-right: 9%;
+  		margin-top: 2%;
+	}
+
+  	#main-container{
+  		width:50%;
+  		padding-left: 0px;
+  		padding-right: 0px;
+  	
+  	}
+  	.main-section{
+  		margin-left: -32%;
+  	}
+  
+  	.sidebar{
+  		width:50%;
+  		padding: 3% 3% 3% 4%;
+  		margin-right: -32%;
+
+
+  	}
+  	.social {
+  		width: 30%;
+  		height: 30%;
+  		margin-top: 2%;
+  		margin-right: 1%;
+  	}
+}
+
+@media only screen and (max-width: 768px){
+  	body{
+  		background-color: blue;
+      background: url("../images/old_moon.png");      
+  	}
+    #logo{
+      margin-left:7.5%;
+    }
+
+    nav{
+      margin-right: 7.5%;
+    }
+
+    #main-container{
+      width:100%;
+      padding-left: 7.5%;
+      padding-right: 0px;
+    }
+
+    .main-section{
+      margin:0 auto;
+    }
+
+    .sidebar{
+      width:100%;
+      margin-right: 61%;
+      margin-top: 5%;
+    }
+
+    .social:last-child {
+      padding-right:0px auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 640px){
+  	body{
+  		background-color: yellow;
+  	}
+  	header{
+  		position: static;
+  	}
+}
